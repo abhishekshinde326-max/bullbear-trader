@@ -31,7 +31,7 @@ const wss    = new WebSocket.Server({ server });
 // ─── YOUR UPSTOX CREDENTIALS ───────────────────────────────────────────────
 const API_KEY     = '92a8f835-6448-4093-920f-fd1364f236bf';
 const API_SECRET  = 'n1qaybiozl';
-const REDIRECT_URI = https://bullbear-trader-production.up.railway.app/callback
+const REDIRECT_URI = 'https://bullbear-trader-production.up.railway.app/callback';
 // ────────────────────────────────────────────────────────────────────────────
 
 let ACCESS_TOKEN  = null;
